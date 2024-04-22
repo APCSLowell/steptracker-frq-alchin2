@@ -17,7 +17,7 @@ public class StepTracker
  public int activeDays(){
   return aDays;
  }
- public double averageSteps{
+ public double averageSteps(){
   total=0;
   for(int i = 0; i < hi.size();i++){
    total += hi.get(i);
