@@ -19,7 +19,7 @@ public class StepTracker
  }
  public double averageSteps{
   total=0;
-  for(int i - 0; i < hi.size();i++){
+  for(int i = 0; i < hi.size();i++){
    total += hi.get(i);
   }
   return (double)total/(double)hi.size();
